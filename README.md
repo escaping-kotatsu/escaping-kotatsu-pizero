@@ -1,6 +1,6 @@
 # escaping-kotatsu-pizero
 
-## human.js
+## kotatsu-human.js
 人感センサ HC-SR501
 ### 使用ポート
 | PIN | Name | Use |
