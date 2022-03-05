@@ -2,9 +2,9 @@
   "name": "escaping-kotatsu-pizero",
   "version": "1.0.0",
   "description": "逃げるコタツのセンサー部",
-  "main": "kotatsu_human.js",
+  "main": "./kotatsu_human.js",
   "scripts": {
-    "test": "kotastu-human.js"
+    "test": "./kotatsu-human.js"
   },
   "repository": {
     "type": "git",
