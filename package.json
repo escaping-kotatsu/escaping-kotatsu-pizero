@@ -1,0 +1,19 @@
+{
+  "name": "escaping-kotatsu-pizero",
+  "version": "1.0.0",
+  "description": "逃げるコタツのセンサー部",
+  "main": "kotatsu_human.js",
+  "scripts": {
+    "test": "kotastu-human.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escaping-kotatsu/escaping-kotatsu-pizero.git"
+  },
+  "author": "Kotatsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/escaping-kotatsu/escaping-kotatsu-pizero/issues"
+  },
+  "homepage": "https://github.com/escaping-kotatsu/escaping-kotatsu-pizero#readme"
+}
