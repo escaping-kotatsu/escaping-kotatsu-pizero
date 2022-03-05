@@ -24,14 +24,19 @@ async function human(){
 
   while (true) {
 	  var sw = await dPort.read();
+	  var h = 0; //API連携用 センサー状態
 	  console.log(sw);
 	  if (sw == 1) {
 			port.write(1); // LEDを点灯
 			console.log("ON");
+			h=1;
+			console.log('h=',h);
 			await sleep(5000);
 		} else {
 			port.write(0); // LEDを消灯
 			console.log("OFF");
+			h=0;
+			console.log('h=',h);
 			await sleep(1000);
 		}
 	}

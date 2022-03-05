@@ -2,11 +2,7 @@
   "name": "escaping-kotatsu-pizero",
   "version": "1.0.0",
   "description": "逃げるコタツのセンサー部",
-  "main": "./kotatsu_human.js",
-  "scripts": {
-    "test": "./kotatsu-human.js"
-  },
-  "type": "module",
+  "main": "kotatsu_human.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/escaping-kotatsu/escaping-kotatsu-pizero.git"
@@ -21,5 +17,10 @@
     "axios": "^0.26.0",
     "node-web-gpio": "^1.0.12",
     "node-web-i2c": "^1.1.18"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node kotatsu_human.js"
   }
 }
