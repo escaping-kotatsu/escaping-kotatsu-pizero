@@ -15,6 +15,7 @@
   "homepage": "https://github.com/escaping-kotatsu/escaping-kotatsu-pizero#readme",
   "dependencies": {
     "axios": "^0.26.0",
+    "delay": "^5.0.0",
     "node-web-gpio": "^1.0.12",
     "node-web-i2c": "^1.1.18"
   },
