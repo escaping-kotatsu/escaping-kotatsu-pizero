@@ -27,7 +27,9 @@
 |------|-----|-----|
 |0V|H(+3V) 検知<br> L(0V) 非検知|+5V|
 
-### 動作
+### 実行・動作
+・`npm install`<br>
+・`npm start`  or `node kotatsu_human.js`<br>
 ・START<br>
 ・確認用LED ON→OFF(100ミリ秒)<br>
 ・センサ入力開始<br>
